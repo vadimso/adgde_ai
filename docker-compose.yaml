@@ -18,7 +18,7 @@ services:
       MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY}
       MINIO_SECRET_KEY: ${MINIO_SECRET_KEY}
       ALLOWED_ORIGINS: ${ALLOWED_ORIGINS}
-      API_KEY: 123456
+      API_KEY: ${API_KEY}
       
     depends_on:
       - redis
